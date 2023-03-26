@@ -1,12 +1,10 @@
 import PropTypes from 'prop-types';
-
-import css from './PhonebookApp.module.css'
-
+import './Phonebook.css';
 
 
 const ContactForm = ({ addContact }) => {
     return (
-      <form className={css['phonebook']}>
+      <form className='contact-form'>
         <label htmlFor="name">Name</label>
         <input
           id="name"

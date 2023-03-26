@@ -1,5 +1,5 @@
 
-import PhoneBookApp from './PhoneBook/PhoneBookApp'
+import Phonebook from './PhoneBook/Phonebook';
 
 
 export const App = () => {
@@ -14,7 +14,7 @@ export const App = () => {
         color: '#010101'
       }}
     >
-      <PhoneBookApp />
+      <Phonebook />
     </div>
   );
 };
